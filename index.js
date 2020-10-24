@@ -283,9 +283,12 @@ bio: Add 1-2 sentences (or use lorem ipsum)
 
 At the end, this function should return the new array with information added"*/
 
-function addArtist(/*Your Code Here*/){
-  /*Your Code Here*/
-  }
+function addArtist(array, id, name, years, genre, nationality, bio){
+  array.push({id, name, years, genre, nationality, bio});
+  return array;
+}
+
+console.log(addArtist(artists, 20, 'Kelsey Nielsen', '1991 - present', 'Web Design', 'American', 'Kelsey is a Web Design student who is trying her best to learn an interesting skill so that she can work at a job she enjoys.'))
 
   
 
