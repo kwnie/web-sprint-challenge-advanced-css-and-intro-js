@@ -146,7 +146,11 @@ button:hover{
         margin-top: 10%
     }
 
+    .artists-container {
+        flex-wrap: wrap;
+    }
+
     .artist {
-        
+        width: 100%;
     }
 }
