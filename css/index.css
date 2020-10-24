@@ -136,6 +136,7 @@ button:hover{
 }
 
 @media(max-width: 500px) {
+
     header nav a {
         padding: 10%;
     }
@@ -143,5 +144,9 @@ button:hover{
     header nav span {
         height: 50%;
         margin-top: 10%
+    }
+
+    .artist {
+        
     }
 }
